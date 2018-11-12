@@ -7,8 +7,9 @@ const buildPath = path.resolve(__dirname, 'build');
 fs.removeSync(buildPath);
 
 // Retrieves contents of a specific smart contract
-const CONTRACTPath = path.resolve(__dirname, 'contracts', 'CONTRACT.sol');
-const source = fs.readFileSync(CONTRACTPath, 'utf-8');
+// *** Update .sol to match your contract in the contract/ folder
+const contractPath = path.resolve(__dirname, 'contracts', 'SampleContract.sol');
+const source = fs.readFileSync(contractPath, 'utf-8');
 
 // Compiles source and extracts 'contracts' object
 const output = solc.compile(source, 1).contracts;

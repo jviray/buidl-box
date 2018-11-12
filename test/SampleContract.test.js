@@ -8,4 +8,4 @@ const web3 = new Web3(provider);
 // It's a bug in either web3 or the provider and cannot be fixed
 require('events').EventEmitter.defaultMaxListeners = 0;
 
-const compiledCONTRACT = require('../ethereum/build/CONTRACT.json');
+const compiledContract = require('../ethereum/build/SampleContract.json');
