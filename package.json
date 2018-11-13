@@ -17,6 +17,7 @@
     "mocha": "^5.2.0",
     "next": "^4.1.4",
     "react": "^16.6.0",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.6.0",
     "solc": "^0.4.25",
     "truffle-hdwallet-provider": "0.0.3",
