@@ -1,6 +1,6 @@
 # Introduction
 
-BUIDL is a minimalistic development box (boilerplate) for building Ethereum apps.
+BUIDL is a lean development box (boilerplate) for building Ethereum apps.
 It uses [Next.js](https://nextjs.org/), a lightweight framework for React.  
 
 ## What does "BUIDL" mean?
