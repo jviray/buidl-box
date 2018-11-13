@@ -35,10 +35,7 @@ export default () => {
         <div className="container" style={jumbostyle}>
           <h1>Welcome, Ethereum Devs!</h1>
           <p>
-            {"It's not good enough just to HODL your crypto."}
-            &nbsp;We as need to start building new and powerful applications.
-            This is what BUIDL means; to "build useful stuff" in the blockchain space.
-            None of this crypto stuff matters unless we execute and #BUIDL ways to increase adoption.
+            As a community we need to start building new and powerful applications that truly add value.
           </p>
           <p>
             <a href="https://www.coindesk.com/dont-hodl-buidl-blockchain-tech-will-add-value-2018">

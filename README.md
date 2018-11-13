@@ -3,7 +3,7 @@
 BUDIL is a minimalistic development box (boilerplate) for building Ethereum apps.
 It uses [Next.js](https://nextjs.org/), a lightweight framework for React.  
 
-## What is BUIDL?
+## What does "BUIDL" mean?
 
 BUIDL is a modification of HODL which means to "Hold On for Dear Life." It's not good enough just to HODL your crypto. If you believe in this space then it's up to you to build new and powerful apps that truly add value. None of this crypto stuff matters unless we execute and #BUIDL ways to increase adoption.  
 
