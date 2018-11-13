@@ -28,17 +28,6 @@ export default () => {
           <div className="navbar-header">
             <a href="#" className="navbar-brand">BUIDL</a>
           </div>
-
-          {/* NAVBAR ITEMS */}
-          <ul className="nav navbar-nav navbar-right">
-            <li>
-              <a href="#">LOGIN</a>
-            </li>
-            <li>
-              <a href="#">SIGN UP</a>
-            </li>
-          </ul>
-
         </div>
       </nav>
 
@@ -47,7 +36,7 @@ export default () => {
           <h1>Welcome, Ethereum Devs!</h1>
           <p>
             {"It's not good enough just to HODL your crypto."}
-            We as need to start building new and powerful applications.
+            &nbsp;We as need to start building new and powerful applications.
             This is what BUIDL means; to "build useful stuff" in the blockchain space.
             None of this crypto stuff matters unless we execute and #BUIDL ways to increase adoption.
           </p>
