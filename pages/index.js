@@ -4,10 +4,16 @@ import { Jumbotron, Button } from 'react-bootstrap/lib';
 import web3 from '../ethereum/web3';
 
 class Welcome extends React.Component {
-  static async getInitialProps() {
+  state = {
+    accountAddress: ''
+  };
+
+  async componentDidMount() {
     const accounts = await web3.eth.getAccounts();
 
-    return { accounts };
+    this.setState({
+      accountAddress: accounts[0]
+    });
   }
 
   render() {
@@ -43,7 +49,7 @@ class Welcome extends React.Component {
 
             {/* NAVBAR ITEMS */}
             <ul className="nav navbar-nav navbar-right">
-              <li className="navbar-brand">{this.props.accounts[0]}</li>
+              <li className="navbar-brand">{this.state.accountAddress}</li>
             </ul>
           </div>
         </nav>
